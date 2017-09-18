@@ -21,7 +21,7 @@ Before we get too much farther in, it's important to be clear on some vocabulary
 "Ivy" #This is a literal. It simply provides information - in this case, that information is a string.
 
 name = "Ivy" #This is the initialization of a variable called name.
-# It means that the variable name contains the string "Ivy"
+# It means that the variable called name contains the string "Ivy"
 ```
 
 Since a literal and a variable in the example above contain the exact same information, the following two lines of code will actually work the exact same way.
