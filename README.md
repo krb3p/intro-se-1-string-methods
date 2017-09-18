@@ -17,7 +17,7 @@ You may already be able to figure it out, but try calling .swapcase on the strin
 
 Before we get too much farther in, it's important to be clear on some vocabulary that will come up often. Let's learn the difference between a variable and a literal.
 
-```Ruby
+```ruby
 "Ivy" #This is a literal. It simply provides information - in this case, that information is a string.
 
 name = "Ivy" #This is the initialization of a variable called name.
@@ -26,7 +26,7 @@ name = "Ivy" #This is the initialization of a variable called name.
 
 Since a literal and a variable in the example above contain the exact same information, the following two lines of code will actually work the exact same way.
 
-```Ruby
+```ruby
 puts "Ivy".swapcase
 #=> This will print the string "iVY" to the console.
 puts name.swapcase
@@ -43,7 +43,7 @@ You'll need three more vocab words to feel really comfortable with these. Here's
 
 This is when you create a variable for the first time and assign it a value.
 
-```Ruby
+```ruby
 age = 17 # This initializes a variable called age and gives it an integer value of 17.
 ```
 
@@ -51,7 +51,7 @@ age = 17 # This initializes a variable called age and gives it an integer value 
 
 This is when you do something with a variable but don't want to save those changes.
 
-```Ruby
+```ruby
 puts age * 2
 # This line of code will print out double your age - it accesses your age, which is 17, and doubles it with the * 2 operator.
 # BUT your age is still saved as 17
@@ -61,7 +61,7 @@ puts age * 2
 
 This is when you change the value of a variable and DO want to save those changes. In our age example, someone's age changes every year on their birthday, so we will need to reassign the age to a higher value.
 
-```Ruby
+```ruby
 age = 18 # This is LITERAL reassignment. It simply provides a new integer.
 
 # There's another way to do it:
@@ -111,7 +111,7 @@ Here are a few of the answers to select challenges.
 
   In the speak.rb file:
 
-  ```Ruby
+  ```ruby
   puts name.swapcase
   ```
 
@@ -130,7 +130,7 @@ Here are a few of the answers to select challenges.
 <details>
   <summary>Click to see solution</summary>
 
-  ```Ruby
+  ```ruby
   puts name.swapcase
   ```
 
@@ -143,7 +143,7 @@ Here are a few of the answers to select challenges.
 <details>
   <summary>Click to see solution</summary>
 
-  ```Ruby
+  ```ruby
   puts name.upcase.reverse
   ```
 
