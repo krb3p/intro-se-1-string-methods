@@ -96,7 +96,7 @@ This shows two examples of how the code would work on different strings - just l
 
 ## Finding other methods
 
-Some of the methods have a very natural human feel to them (like the .upcase method, for example) and you may be able to understand what they do immediately. Others will (like .intern) may seem a lot stranger, and will only make sense once you've seen some more complex code.
+Some of the methods have a very natural human feel to them (like the `.upcase` method, for example) and you may be able to understand what they do immediately. Others (like `.intern`) will may seem a lot stranger, and will only make sense once you've seen some more complex code.
 
 To navigate documentation efficiently, many developers use `cmd + f` or `ctrl + f` to pull up the "find" text field. They they use related keywords to jump straight to the information they need. If you want to figure out how to make a string print out backwards, try typing words like "backwards" or "reverse" in the find field.
 
